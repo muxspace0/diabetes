@@ -40,3 +40,15 @@ filter_events <- function(df) {
 }
 
 
+#' table(get_event_times(df, 58))
+get_event_times <- function(df, feature, id=NULL) {
+  if (is.null(id))
+    df$time[df$feature==feature]
+  else
+    df$time[df$feature==feature & df$id==id]
+}
+
+
+# Some times are 0-padded, so to normalize, the date and time values should
+# be converted to a POSIX datetime.
+
