@@ -29,26 +29,3 @@ get_patient_duration <- function(df) {
 }
 
 
-# Section 2.2.3
-
-#' Filter out unused events
-#'
-#' df <- filter_events(df)
-filter_events <- function(df) {
-  keep <- c(33,34,58,60,62)
-  df[df$feature %in% keep,]
-}
-
-
-#' table(event_times(df, 58))
-event_times <- function(df, feature, id=NULL) {
-  if (is.null(id))
-    df$time[df$feature==feature]
-  else
-    df$time[df$feature==feature & df$id==id]
-}
-
-
-# Some times are 0-padded, so to normalize, the date and time values should
-# be converted to a POSIX datetime.
-
