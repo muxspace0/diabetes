@@ -29,3 +29,14 @@ get_patient_duration <- function(df) {
 }
 
 
+# Section 2.2.3
+
+#' Filter out unused events
+#'
+#' df <- filter_events(df)
+filter_events <- function(df) {
+  keep <- c(33,34,58,60,62)
+  df[df$feature %in% keep,]
+}
+
+
