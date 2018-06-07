@@ -1,5 +1,3 @@
-# source("R/read.R")
-# source("R/explore.R")
 
 # Section 2.2.2
 
