@@ -52,3 +52,5 @@ get_event_times <- function(df, feature, id=NULL) {
 # Some times are 0-padded, so to normalize, the date and time values should
 # be converted to a POSIX datetime.
 
+
+# Section 2.4
