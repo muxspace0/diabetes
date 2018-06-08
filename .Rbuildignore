@@ -1,0 +1,12 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^rename$
+^\.gitignore$
+^README.md$
+^LICENSE$
+^tools$
+^.travis.yml$
+.init.R
+.swp$
+^private$
+^notebooks$

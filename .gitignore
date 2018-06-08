@@ -1,0 +1,11 @@
+# History files
+.Rhistory
+.RData
+private
+
+# Example code in package build process
+*-Ex.R
+
+# Other
+*.swp
+*~

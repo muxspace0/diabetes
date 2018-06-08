@@ -1,0 +1,18 @@
+Package: diabetes.3
+Type: Package
+Title: ’Analyze
+Version: 1.0.0
+Date: 2018-06-08
+Author: AUTHOR <AUTHOR@DOMAIN.COM>
+Maintainer: AUTHOR <AUTHOR@DOMAIN.COM>
+Imports:
+  futile.logger
+Suggests:
+  testit
+Description: ~~DESCRIPTION~~
+License: LGPL-3
+LazyLoad: yes
+Collate:
+  diabetes.3-package.R
+  explore.R
+  read.R

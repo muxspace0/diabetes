@@ -1,0 +1,7 @@
+language: r
+r:
+  - release
+  - oldrel
+  - devel
+#r_github_packages:
+#  - user/repo
