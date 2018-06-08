@@ -1,15 +1,15 @@
 Package: diabetes.3
 Type: Package
-Title: ’Analyze
+Title: Analyze Diabetes Patients
 Version: 1.0.0
 Date: 2018-06-08
-Author: AUTHOR <AUTHOR@DOMAIN.COM>
-Maintainer: AUTHOR <AUTHOR@DOMAIN.COM>
+Author: Author Name <author@name.com>
+Maintainer: Author Name <author@name.com>
 Imports:
   futile.logger
 Suggests:
   testit
-Description: ~~DESCRIPTION~~
+Description: The description. It needs to contain at least two sentences.
 License: LGPL-3
 LazyLoad: yes
 Collate:

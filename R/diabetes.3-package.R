@@ -1,7 +1,7 @@
 # :vim set filetype=R
-#' ’Analyze
+#' Analyze Diabetes Patients
 #'
-#' ~~DESCRIPTION~~
+#' The description. It needs to contain at least two sentences.
 #'
 #' \tabular{ll}{
 #' Package: \tab diabetes.3\cr
@@ -17,7 +17,7 @@
 #' @docType package
 #' @exportPattern "^[^\\.]"
 #' @import futile.logger 
-#' @author AUTHOR <AUTHOR@@DOMAIN.COM>
+#' @author Author Name <author@@name.com>
 #' @keywords package
 ## @seealso \code{\link{other.package}}
 NULL 
